@@ -18,27 +18,3 @@ body{
 .navbar:hover{
     background-color: #f8f9fa;
 }
-
-.btn{
-    background-color: #f8f9fa43;
-}
-.headline{
-    color: #f8f9fa;
-    margin-top: 24vh;
-    margin-bottom: 21vh;
-}
-.headline> p{
-    font-size: 4vh;
-
-}
-.headline> h1{
-    font-size: 10vh;
-
-}
-h3{
-    padding-top: 3vh;
-}
-span, h3{
-    color: #9f85f0;
-
-}
