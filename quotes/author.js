@@ -51,7 +51,7 @@ async function getquotes(){
             data = data.filter(a => a.author === author.split('_').join(' '))
             
             data.forEach(element => {
-                document.getElementById("id").innerHTML+=  `<div style="height:200px; width:100%;" class="carousel-item active">${element.text}</div>`
+                document.getElementById("id").innerHTML+=  `<div class="carousel-item active"><img class="d-block w-100" src="..." alt="${element.text}"></div>`
                 
             });
 
