@@ -15,21 +15,33 @@ body{
     background-repeat: no-repeat;
 
 }
-.navbar{
+.navbar:hover{
     background-color: #f8f9fa;
+}
+.navbar{
     --bs-navbar-nav-link-padding-x: 3.5rem !important;
 }
 
-#cards{
-    margin-top: 21vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.btn{
+    background-color: #f8f9fa43;
 }
-.card{
- margin: 1%;
+.headline{
+    color: #f8f9fa;
+    margin-top: 24vh;
+    margin-bottom: 21vh;
 }
- #btn_card{
-    width: 100%;
-    height:35% ;
+.headline> p{
+    font-size: 4vh;
+
+}
+.headline> h1{
+    font-size: 10vh;
+
+}
+h3{
+    padding-top: 3vh;
+}
+span, h3{
+    color: #9f85f0;
+
 }

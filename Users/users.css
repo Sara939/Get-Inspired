@@ -20,16 +20,14 @@ body{
     --bs-navbar-nav-link-padding-x: 3.5rem !important;
 }
 
-#cards{
+.btn{
+    background-color: #f8f9fa43;
+}
+div> .table{
     margin-top: 21vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.card{
- margin: 1%;
-}
- #btn_card{
-    width: 100%;
-    height:35% ;
+    margin-left: 20vh ;
+    height: 10% !important;
+    width: 10% !important;
+    --bs-table-border-color: #9f85f0 ;
+
 }

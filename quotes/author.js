@@ -1,11 +1,11 @@
 const searchString =  window.location.search;
-console.log('searchString: ', searchString);
+// console.log( searchString);
 const urlParams = new URLSearchParams(searchString);
-console.log('urlParams: ', urlParams);
+// console.log( urlParams);
 const author = urlParams.get('author')
-console.log(author);
+// console.log(author);
 
-let arrayOfQuotes;
+// let arrayOfQuotes;
 
 async function dataOnAuthor(){
     try{
@@ -43,15 +43,17 @@ async function imageOfAuthor(){
 imageOfAuthor()
 
 
+
 async function getquotes(){
     try{
         return await fetch("https://type.fit/api/quotes")
         .then(response => response.json())
         .then(data => {
-            data = data.filter(a => a.author === author.split('_').join(' '))
-            
+            data = data.filter(item => item.author === author.split('_').join(' '))
+            // document.getElementById("slide-up").innerHTML+= `<h4>More Of Auther: </h4>`
             data.forEach(element => {
-                document.getElementById("id").innerHTML+=  `<div class="carousel-item active"><img class="d-block w-100" src="..." alt="${element.text}"></div>`
+                
+                document.getElementById("slide-up").innerHTML+= `<li>"${element.text}"</li>`
                 
             });
 
@@ -63,5 +65,3 @@ async function getquotes(){
     finally{}
 }
 
-//  getquotes();
-console.log(getquotes());
