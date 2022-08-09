@@ -13,7 +13,9 @@ async function dataOnAuthor(){
 
         .then(res => res.json())
         .then(data=>{
-            document.getElementById("data").innerHTML= `<div>${data.query.pages[0].extract}</div>`
+            document.getElementById("data").innerHTML= `<p>${data.query.pages[0].extract}</p>`
+            
+            document.getElementById("name").innerHTML=`<h3 class="title">${author}</h3>`
         })
         // .then(json => console.log(json))
     }
