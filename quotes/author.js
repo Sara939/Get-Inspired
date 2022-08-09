@@ -55,7 +55,7 @@ async function getquotes(){
             // document.getElementById("slide-up").innerHTML+= `<h4>More Of Auther: </h4>`
             data.forEach(element => {
                 
-                document.getElementById("slide-up").innerHTML+= `<li>"${element.text}"</li>`
+                document.getElementById("slide-up").innerHTML+= `<p>"${element.text}"</p>`
                 
             });
 

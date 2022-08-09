@@ -61,7 +61,6 @@ html *{
 }
 
 
-
 a .material-icons {
   vertical-align: middle;
 }
@@ -160,7 +159,7 @@ a .material-icons {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
   margin: 0 0 10px;
 }
 
@@ -173,15 +172,15 @@ p {
   padding: 20px 0 50px;
 }
 
-.profile-page .gallery {
+/* .profile-page .gallery {
   margin-top: 3.213rem;
   padding-bottom: 50px;
 }
 
 .profile-page .gallery img {
-  width: 100%;
+  width: 80%;
   margin-bottom: 2.142rem;
-}
+} */
 
 .profile-page .profile .name{
   margin-top: -80px;
@@ -196,7 +195,7 @@ img.rounded {
 }
 
 /*buttons*/
-.btn {
+/* .btn {
   position: relative;
   padding: 12px 30px;
   margin: .3125rem 1px;
@@ -211,9 +210,9 @@ img.rounded {
   outline: 0;
   transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1);
   will-change: box-shadow,transform;
-}
+} */
 
-.btn.btn-just-icon {
+/* .btn.btn-just-icon {
   font-size: 20px;
   height: 41px;
   min-width: 41px;
@@ -222,9 +221,9 @@ img.rounded {
   overflow: hidden;
   position: relative;
   line-height: 41px;
-}
+} */
 
-.btn.btn-just-icon fa{
+/* .btn.btn-just-icon fa{
   margin-top: 0;
   position: absolute;
   width: 100%;
@@ -234,11 +233,11 @@ img.rounded {
   height: 100%;
   line-height: 41px;
   font-size: 20px;
-}
-.btn.btn-link{
+} */
+/* .btn.btn-link{
   background-color: transparent;
   color: #999;
-}
+} */
 
 
 
