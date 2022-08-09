@@ -22,43 +22,73 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-lg-2" >
-            <li class="nav-item active">
-              <a class="nav-link disabled" href="/index.html">Home <span class="sr-only">(current)</span></a>
+            <ul class="navbar-nav mb-lg-2" >
+              <li class="nav-item active">
+                <a class="nav-link disabled" href="/index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="/About/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link " href="/quotes/quotes.html">Quotes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/Users/users.html">Users</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/About/about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="/quotes/quotes.html">Quotes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="/Users/users.html">Users</a>
-          </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/Get/get.html">Get In Touch</a>
-            </li>
-          </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="/Get/get.html">Get In Touch</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-    </div>
+  
+      <div id="main">
+        <div  id="video"></div>
+            <div class="headline text-center">
+              <h1>GET INSPIERD HOURLEY</h1>
+              <p id="hourly">
+                  The largest collection of inspirational quotes from successful people <br>who have left a mark,
+                  helping you make yours!<br>
+                  You can visit us every hour to discover something new. Wake up your mind.<br>
+              </p>
 
+              <p>
+                <a href="#cardalone" class="btn btn-lg btn-default">Increase the impact, go to inspiring videos</a> 
+             </p>
+          </div>
 
-    <div class="headline text-center">
-        <h1>GET INSPIERD HOURLEY</h1>
-        <p id="hourly">
-            The largest collection of inspirational quotes from successful people <br>who have left a mark,
-            helping you make yours!<br>
-            You can visit us every hour to discover something new. Wake up your mind.<br>
-        </p>
+            <div class="row">
+                  <div class="card embed-responsive embed-responsive-16by9" >
+                    <iframe src="https://www.youtube.com/embed/faTGTgid8Uc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">Anthony Jay Robbins</h5>
+                    </div>
+                  </div>
+                  <div class="card embed-responsive embed-responsive-16by9">
+                    <iframe src="https://www.youtube.com/embed/Y221OXwZKoM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                      <h5 class="card-title">אלון אולמן - Alon Ulman</h5>
+                    </div>
+                  </div>
+            </div>
 
-        <p >
-          <a href="/quotes/quotes.html" class="btn btn-lg btn-default">Learn more</a>
-        </p>
+            <div id="cardalone" class= "card embed-responsive embed-responsive-16by9">
+              <iframe src="https://www.youtube.com/embed/BxY_eJLBflk"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="card-body">
+                <h5 class="card-title">
+                  Put God First  </h5>
+                <p class="card-text">Denzel Washington Motivational & Inspiring Commencement Speech</p>
+              </div>
+            </div>
+
       </div>
 
 
-    <footer id="footer" class="bg-* text-center  fixed-bottom">    
+
+
+    
+    <footer id="footer" class="bg-* text-center text-dark p-1" style="background-color: rgba(0, 0, 0, 0.2);">    
         <div>
             <section>
                 <a class="btn btn-outline-dark btn-floating m-1" target="_blank"
@@ -71,7 +101,7 @@
                 role="button"><i class="fa fa-github-square"></i></a>
             </section>
             
-            <div class="text-center text-dark p-1" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="text-center text-dark p-1">
                 © 2022 Copyright: SLIKAOUNT.COM
             </div>  
         </div>
@@ -79,9 +109,8 @@
     
 
 
-  </div>
 
-        <script src="/main.js"></script>
+      <script src="/main.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

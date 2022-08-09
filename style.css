@@ -1,38 +1,40 @@
-img{
+#logo{
     height:4vh;
     width: 20vw;
     margin: 2%;
 }
 @media (max-width: 753px){
-    img{
+    #logo{
         display: none;
     }
 
 }
-body{
+#main{
     background-image: url(/imges/alps.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat:no-repeat;
 
 }
 .navbar{
     --bs-navbar-nav-link-padding-x: 3.5rem !important;
 
 }
-.navbar:hover{
+/* .navbar:hover{
     background-color: #f8f9fa;
-}
+} */
 
 .btn{
     background-color: #f8f9fa43;
 }
 .headline{
     color: #f8f9fa;
-    margin-top: 24vh;
-    margin-bottom: 21vh;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
 }
 .headline> p{
     font-size: 4vh;
+    margin-bottom: 10vh;;
+
 
 }
 .headline> h1{
@@ -46,3 +48,30 @@ span, h3{
     color: #9f85f0;
 
 }
+#video{
+    background-image: url(/Imges/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+
+}
+
+@media only screen and (min-width: 768px) {
+    iframe{
+      height: 16em;
+      
+    }
+    .card{
+      width: 50%;
+    }
+    #cardalone{
+        width: 99vw;
+    }
+
+  }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    
+  }

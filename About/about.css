@@ -1,12 +1,17 @@
-img{
+#logo{
     height:4vh;
     width: 20vw;
     margin: 2%;
 }
 @media (max-width: 753px){
-    img{
+    #logo{
         display: none;
     }
+    img{
+        display: none;
+        
+    }
+ 
 
 }
 body{
@@ -29,6 +34,8 @@ body{
     color: #f8f9fa;
     margin-top: 24vh;
     margin-bottom: 21vh;
+    display: flex;
+
 }
 .headline> p{
     font-size: 4vh;

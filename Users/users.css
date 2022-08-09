@@ -1,10 +1,10 @@
-img{
+#logo{
     height:4vh;
     width: 20vw;
     margin: 2%;
 }
 @media (max-width: 753px){
-    img{
+    #logo{
         display: none;
     }
 
@@ -31,3 +31,6 @@ div> .table{
     --bs-table-border-color: #9f85f0 ;
 
 }
+#footer{
+    margin-top: 10vh;
+  }
