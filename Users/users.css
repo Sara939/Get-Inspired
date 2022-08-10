@@ -7,6 +7,9 @@
     #logo{
         display: none;
     }
+    div> .table{
+        margin-left:0%;
+    }
 
 }
 body{
@@ -20,17 +23,35 @@ body{
     --bs-navbar-nav-link-padding-x: 3.5rem !important;
 }
 
-.btn{
+/* .btn{
     background-color: #f8f9fa43;
-}
-div> .table{
+} */
+/* div> .table{
     margin-top: 21vh;
-    margin-left: 20vh ;
+    margin-left: 30vh ;
     height: 10% !important;
-    width: 10% !important;
+    width: 40% !important;
     --bs-table-border-color: #9f85f0 ;
+    
 
-}
+} */
 #footer{
     margin-top: 10vh;
   }
+
+.card{
+    margin-top: 21vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    --bs-card-bg: rgba(169, 33, 162, 0) !important;
+    margin-left: 10%;
+    border: none;
+}
+  
+
+  .list-group {
+ margin: 35px
+
+  }
+ 
