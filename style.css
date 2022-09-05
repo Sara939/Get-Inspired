@@ -49,7 +49,7 @@ span, h3{
 
 }
 #video{
-    background-image: url(Imges/home.jpg);
+    background-image: url(https://imges/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
