@@ -31,7 +31,7 @@ onload= function buildarray(){
         arrayOfQuotes.slice(22,38).forEach(element => {
             // console.log(element);
             this.document.getElementById("cards").innerHTML+= `<div class="card" id="card" style="width: 18rem;"> <div class="card-body" id="card-body">
-            <h5 class="card-title">${element.author}</h5><p class="card-text">"${element.text}"</p><a href="/quotes/author.html?author=${element.author.split(' ').join('_')}" class="btn btn-primary" id="btn_card">Read More About ${element.author}</a> </div></div>`;
+            <h5 class="card-title">${element.author}</h5><p class="card-text">"${element.text}"</p><a href="../quotes/author.html?author=${element.author.split(' ').join('_')}" class="btn btn-primary" id="btn_card">Read More About ${element.author}</a> </div></div>`;
     });
     });
 }
